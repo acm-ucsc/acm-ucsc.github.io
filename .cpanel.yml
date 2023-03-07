@@ -2,4 +2,6 @@
 deployment:
   tasks:
     - export DEPLOY_PATH=/home/ucschostingacm/public_html/
-    - /bin/cp -R /home/ucschostingacm/repositories/acm-ucschub.io.git $DEPLOY_PATH
+    - /bin/cp -R src $DEPLOY_PATH
+    - /bin/cp index.html $DEPLOY_PATH
+    - /bin/cp particlesjs-config.json $DEPLOY_PATH
